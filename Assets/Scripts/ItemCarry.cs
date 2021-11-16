@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemCarry : MonoBehaviour
 {
     public int BlockValue;
+    public int HoldingBlockValue;
     private GameObject Player;
     private bool Holding;
     public Collider2D RemoveOnCarry;
@@ -12,6 +13,7 @@ public class ItemCarry : MonoBehaviour
     void Start()
     {
         this.Holding = false;
+        this.HoldingBlockValue = this.BlockValue;
     }
 
     // Update is called once per frame
@@ -34,6 +36,11 @@ public class ItemCarry : MonoBehaviour
                     this.Player.gameObject.transform.position.x, 
                     this.Player.gameObject.transform.position.y - 1.5f, 
                     this.Player.gameObject.transform.position.z);
+                this.BlockValue = -1;
+            }
+            else
+            {
+                this.BlockValue = this.HoldingBlockValue;
             }
         }
     }
@@ -43,6 +50,14 @@ public class ItemCarry : MonoBehaviour
         if(collision.tag == "Player")
         {
             this.Player = collision.gameObject;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            this.Player = null;
         }
     }
 }

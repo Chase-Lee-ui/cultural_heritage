@@ -22,7 +22,7 @@ public class PuzzleCorrect : MonoBehaviour
     {
         if(collision.tag == "Puzzle Piece")
         {
-            if(collision.gameObject.GetComponent<Block_Value>().Value == this.TargetValue)
+            if(collision.gameObject.GetComponent<ItemCarry>().BlockValue == this.TargetValue)
             {
                 this.Pillar.GetComponent<LiftUp>().Lift = true;
             }
