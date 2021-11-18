@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_Movement : MonoBehaviour
 {
     public Vector2 Speed;
+    public float inputY;
     private Rigidbody2D PlayerRB;
     public float JumpHeight;
     public bool OnGround;
@@ -22,6 +23,7 @@ public class Player_Movement : MonoBehaviour
     void Update()
     {
         float inputX = Input.GetAxis("Horizontal");
+        inputY = Input.GetAxis("Vertical");
         Vector3 movement = new Vector3(this.Speed.x * inputX, 0, 0);
 
         if(this.OnGround && Input.GetKeyDown(KeyCode.Space))
