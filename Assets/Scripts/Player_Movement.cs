@@ -29,6 +29,9 @@ public class Player_Movement : MonoBehaviour
 
         if(this.OnGround && Input.GetKeyDown(KeyCode.Space))
         {
+            this.animator.SetBool("isJumping", true);
+            this.animator.SetTrigger("takeOff");
+            
             PlayerRB.AddForce(Vector2.up * this.JumpHeight * this.GravityModifier);
             this.OnGround = false;
         }
@@ -57,6 +60,8 @@ public class Player_Movement : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Ground"))
         {
+            this.animator.SetBool("takeOff", false);
+            this.animator.SetBool("isJumping", false);
             this.OnGround = true;
         }
     }
