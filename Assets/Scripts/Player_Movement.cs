@@ -8,7 +8,7 @@ public class Player_Movement : MonoBehaviour
     public float inputY;
     private Rigidbody2D PlayerRB;
     public float JumpHeight;
-    private bool OnGround;
+    public bool OnGround;
     private SpriteRenderer SpriteRenderer;
     public float GravityModifier;
     // Start is called before the first frame update
@@ -18,6 +18,7 @@ public class Player_Movement : MonoBehaviour
         this.SpriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
 
+    // if(!moveInput)rigidbody.contraints=RigidbodyConstraints.FreezePosition; stop sliding down stairs
     // Update is called once per frame
     void Update()
     {
