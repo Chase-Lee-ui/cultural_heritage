@@ -2363,6 +2363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: {x: 10, y: 10}
+  inputY: 0
   JumpHeight: 50
   OnGround: 0
   GravityModifier: 9.8
@@ -2686,7 +2687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ff399958b2f164c88176e03ca483a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: 
+  NextScene: Stage_Select_Test
   inside: 0
 --- !u!61 &1238655447
 BoxCollider2D:
