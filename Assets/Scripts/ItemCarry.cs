@@ -8,7 +8,6 @@ public class ItemCarry : MonoBehaviour
     public int HoldingBlockValue;
     private GameObject Player;
     private bool Holding;
-    public Collider2D RemoveOnCarry;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +22,12 @@ public class ItemCarry : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Q))
             {
+
                 if(this.Holding)
                 {
                     this.Player = null;
                 }
-                this.RemoveOnCarry.enabled = !this.RemoveOnCarry.enabled;
+
                 this.Holding = !this.Holding;
             }
             if(this.Holding)
@@ -45,9 +45,9 @@ public class ItemCarry : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if(collision.tag == "Hand")
         {
             this.Player = collision.gameObject;
         }
@@ -55,7 +55,7 @@ public class ItemCarry : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if(collision.tag == "Hand")
         {
             this.Player = null;
         }

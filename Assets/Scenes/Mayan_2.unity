@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9992,10 +9992,95 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.56, y: 1.4}
-  m_EdgeRadius: 0
---- !u!212 &1025218724
+  m_Points:
+    m_Paths:
+    - - {x: 0.16499999, y: -0.79999995}
+      - {x: 0.185, y: -0.84}
+      - {x: 0.345, y: -0.84}
+      - {x: 0.375, y: -0.82}
+      - {x: 0.315, y: -0.53}
+      - {x: 0.305, y: -0.25}
+      - {x: 0.375, y: -0.51}
+      - {x: 0.48499998, y: -0.53999996}
+      - {x: 0.53499997, y: -0.48999998}
+      - {x: 0.505, y: -0.28}
+      - {x: 0.36499998, y: -0.089999996}
+      - {x: 0.515, y: 0.089999996}
+      - {x: 0.515, y: 0.26}
+      - {x: 0.59499997, y: 0.25}
+      - {x: 0.635, y: 0.32999998}
+      - {x: 0.635, y: 0.48}
+      - {x: 0.59499997, y: 0.53}
+      - {x: 0.465, y: 0.57}
+      - {x: 0.33499998, y: 0.72999996}
+      - {x: 0.044999998, y: 0.84}
+      - {x: 0.005, y: 0.84}
+      - {x: -0.024999999, y: 0.83}
+      - {x: -0.265, y: 0.62}
+      - {x: -0.42499998, y: 0.53}
+      - {x: -0.465, y: 0.47}
+      - {x: -0.475, y: 0.39}
+      - {x: -0.475, y: 0.35}
+      - {x: -0.42499998, y: 0.29}
+      - {x: -0.355, y: 0.17}
+      - {x: -0.375, y: 0.099999994}
+      - {x: -0.255, y: -0.049999997}
+      - {x: -0.315, y: -0.22999999}
+      - {x: -0.375, y: -0.14999999}
+      - {x: -0.615, y: -0.089999996}
+      - {x: -0.635, y: -0.12}
+      - {x: -0.635, y: -0.17999999}
+      - {x: -0.625, y: -0.19}
+      - {x: -0.39499998, y: -0.34}
+      - {x: -0.405, y: -0.52}
+      - {x: -0.295, y: -0.62}
+      - {x: -0.175, y: -0.64}
+      - {x: -0.24499999, y: -0.76}
+      - {x: -0.205, y: -0.84}
+      - {x: -0.055, y: -0.84}
+      - {x: -0.035, y: -0.82}
+      - {x: -0.024999999, y: -0.63}
+      - {x: 0.175, y: -0.62}
+    - - {x: -0.265, y: -0.51}
+      - {x: -0.24499999, y: -0.48}
+      - {x: -0.235, y: -0.44}
+      - {x: -0.24499999, y: -0.42999998}
+      - {x: -0.24499999, y: -0.35999998}
+      - {x: -0.235, y: -0.35}
+      - {x: -0.225, y: -0.31}
+      - {x: -0.205, y: -0.28}
+      - {x: -0.195, y: -0.28}
+      - {x: -0.155, y: -0.25}
+      - {x: -0.145, y: -0.24}
+      - {x: -0.145, y: -0.44}
+      - {x: -0.13499999, y: -0.45}
+      - {x: -0.13499999, y: -0.48}
+      - {x: -0.155, y: -0.51}
+      - {x: -0.155, y: -0.52}
+      - {x: -0.255, y: -0.52}
+      - {x: -0.255, y: -0.51}
+--- !u!50 &1012051523
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012051520}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1.68
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!212 &1012051524
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
