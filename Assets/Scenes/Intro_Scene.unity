@@ -1214,7 +1214,7 @@ GameObject:
   - component: {fileID: 467986699}
   - component: {fileID: 467986698}
   m_Layer: 0
-  m_Name: speech
+  m_Name: Museum Owner Speech
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2212,10 +2212,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: {fileID: 1537267468}
   DialogMessages:
-  - 'According to all know laws of aviation According to all know laws of aviation
-    According to all know laws of aviation According to all know laws of aviation
-    According to all know laws of aviation According to all know laws of aviation
-    According to all know laws of aviation According to all know laws of aviation '
+  - Oh, there you are Curator, I've been looking all over the place for you
+  - Get back to work so that we can restore revenue to this great museum
+  - .........
+  - Well? What are you waiting for, go to the plaza and get me my artifacts!
   TextSpeed: 0.1
   Camera: {fileID: 1407269888}
   LookAtTransform: {fileID: 1537267467}
