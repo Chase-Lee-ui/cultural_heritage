@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Puzzle Piece
+  - Hand
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
+  - Player
+  - Numerals
   - 
   - 
   - 
