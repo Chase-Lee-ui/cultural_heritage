@@ -6,12 +6,12 @@ public class Player_Movement : MonoBehaviour
 {
     public Vector2 Speed;
     public float inputY;
-    private Rigidbody2D PlayerRB;
+    public Rigidbody2D PlayerRB;
     public float JumpHeight;
     public bool OnGround;
     private SpriteRenderer SpriteRenderer;
     private Transform transform;
-    private Animator animator;
+    public Animator animator;
     public float GravityModifier;
     // Start is called before the first frame update
     void Start()
