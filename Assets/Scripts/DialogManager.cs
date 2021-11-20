@@ -50,6 +50,7 @@ public class DialogManager : MonoBehaviour
                 {
                     this.Camera.Follow = this.Player.gameObject.transform;
                     this.PlayerMovementScript.enabled = true;
+                    this.PlayerMovementScript.Speed.x = 30;
                     this.gameObject.transform.parent.gameObject.SetActive(false);
                 }
             }
@@ -110,6 +111,8 @@ public class DialogManager : MonoBehaviour
             this.CurrentPosition = collision.gameObject.transform;
             //saves monke movement
             this.PlayerMovementScript = collision.gameObject.GetComponent<Player_Movement>();
+            this.PlayerMovementScript.PlayerRB.velocity = new Vector2(0, 0);
+            this.PlayerMovementScript.animator.SetBool("isWalking", false);
             this.PlayerMovementScript.enabled = false;
             this.LookAtObject.transform.position = collision.gameObject.transform.position;
             this.Camera.Follow = this.LookAtObject.transform;
