@@ -888,6 +888,11 @@ PrefabInstance:
       propertyPath: DialogMessages.Array.data[3]
       value: I must thank you
       objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350583, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.22
+      objectReference: {fileID: 0}
     - target: {fileID: 4672540296519355405, guid: 4dbb70311c212c94b948efbce5425d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1206,6 +1211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: DialogMessages.Array.data[4]
       value: We just ask you to consider. Thank you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350583, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: 4672540296519355405, guid: 4dbb70311c212c94b948efbce5425d04,
         type: 3}
