@@ -1783,7 +1783,7 @@ PrefabInstance:
         type: 3}
       propertyPath: camControl
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2146813025}
     - target: {fileID: -4694535963101049359, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
       propertyPath: NextScene
@@ -2015,7 +2015,7 @@ PrefabInstance:
         type: 3}
       propertyPath: camControl
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2146813025}
     - target: {fileID: 1422318251573429807, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
       propertyPath: artifactName

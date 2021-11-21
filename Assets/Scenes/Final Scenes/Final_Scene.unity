@@ -888,6 +888,11 @@ PrefabInstance:
       propertyPath: DialogMessages.Array.data[3]
       value: I must thank you
       objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350583, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.14
+      objectReference: {fileID: 0}
     - target: {fileID: 4672540296519355405, guid: 4dbb70311c212c94b948efbce5425d04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1206,6 +1211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: DialogMessages.Array.data[4]
       value: We just ask you to consider. Thank you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350583, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 4672540296519355405, guid: 4dbb70311c212c94b948efbce5425d04,
         type: 3}
@@ -1868,6 +1878,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2058870581189931412, guid: 374d7f383b4733d4a93010abff1a17a9,
+        type: 3}
+      propertyPath: cmCamera
+      value: 
+      objectReference: {fileID: 907003002}
     - target: {fileID: 6537677495791431762, guid: 374d7f383b4733d4a93010abff1a17a9,
         type: 3}
       propertyPath: m_Name

@@ -12224,12 +12224,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093059870}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a72660c90a57684dba9c8d2cec7ffee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Mayan_2
+  NextScene: Final_Scene_3
   delay: 1
   anim: {fileID: 612098765}
   playerMovement: {fileID: 612098764}
