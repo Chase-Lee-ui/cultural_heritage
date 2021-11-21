@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 4b3a4016e7192e0439b36cadd3fec44a
+guid: 62c8946617ab56b4bb77a1a6f8a22285
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7624524358356452823
-    second: Museum (right)_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -34,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -100,28 +97,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Museum (right)_0
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 139
-        width: 365
-        height: 311
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92ab9d61e7f303690800000000000000
-      internalID: -7624524358356452823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
