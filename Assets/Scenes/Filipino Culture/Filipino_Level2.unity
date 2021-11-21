@@ -11421,6 +11421,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3510568905448357022, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -417
+      objectReference: {fileID: 0}
     - target: {fileID: 6293093063581589717, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_Name
@@ -11429,52 +11434,77 @@ PrefabInstance:
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_text
+      value: 'Artifact: Anting Anting or Agimat, Mystical charm'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 59.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 59.98
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_text
+      value: 'Location: Philippines'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 249baab9b9accc541aec70d92e737c3b, type: 3}

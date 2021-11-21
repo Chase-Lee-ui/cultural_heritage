@@ -804,6 +804,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelOverlay
       objectReference: {fileID: 0}
+    - target: {fileID: 6293093063581589717, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.characterCount
