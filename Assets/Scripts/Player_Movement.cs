@@ -57,6 +57,11 @@ public class Player_Movement : MonoBehaviour
         // transform.Translate(movement * Time.deltaTime);
     }
 
+    public void MoveTo(Vector3 position, float t)
+    {
+
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Ground"))
