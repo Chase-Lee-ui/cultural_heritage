@@ -6,14 +6,16 @@ public class PuzzleCorrect : MonoBehaviour
 {
     public int TargetValue;
     public GameObject Pillar;
-    public GameObject Prize;
-    private bool SetActive;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        if(this.Prize && this.SetActive)
-        {
-            this.Prize.gameObject.SetActive(true);
-        }
+        
     }
 
     void OnTriggerStay2D(Collider2D collision)
@@ -22,14 +24,7 @@ public class PuzzleCorrect : MonoBehaviour
         {
             if(collision.gameObject.GetComponent<ItemCarry>().BlockValue == this.TargetValue)
             {
-                if(this.Pillar)
-                {
-                    this.Pillar.GetComponent<LiftUp>().Lift = true;
-                }
-                if(this.Prize)
-                {
-                    this.SetActive = true;
-                }
+                this.Pillar.GetComponent<LiftUp>().Lift = true;
             }
         }
     }
