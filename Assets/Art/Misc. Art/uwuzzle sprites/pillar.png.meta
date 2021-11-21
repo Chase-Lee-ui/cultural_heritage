@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 700a9a29e78555543bc1bd488ec78346
+guid: f6fe06c1ae498b54dbec0ba8eaa60d33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 832902519694490190
-    second: Cobblestone Tile_0
+      213: 4269108728175869260
+    second: pillar_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cobblestone Tile_0
+      name: pillar_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 65
-        width: 60
-        height: 60
+        x: 172
+        y: 123
+        width: 193
+        height: 422
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,8 +116,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4afae2cd601f8b00800000000000000
-      internalID: 832902519694490190
+      spriteID: c4d317205cbee3b30800000000000000
+      internalID: 4269108728175869260
       vertices: []
       indices: 
       edges: []
