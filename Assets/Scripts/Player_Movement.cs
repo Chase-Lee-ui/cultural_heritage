@@ -10,14 +10,12 @@ public class Player_Movement : MonoBehaviour
     public float JumpHeight;
     public bool OnGround;
     private SpriteRenderer SpriteRenderer;
-    private Transform transform;
     public Animator animator;
     public float GravityModifier;
     // Start is called before the first frame update
     void Start()
     {
         this.animator = this.gameObject.GetComponent<Animator>();
-        this.transform = this.gameObject.GetComponent<Transform>();
         this.PlayerRB = this.gameObject.GetComponent<Rigidbody2D>();
         this.SpriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
@@ -41,13 +39,14 @@ public class Player_Movement : MonoBehaviour
 
         if(inputX < 0)
         {
+            Debug.Log("flip");
             // this.SpriteRenderer.flipX = true;
-            this.transform.rotation = Quaternion.Euler(0, 180, 0);
+            gameObject.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else if(inputX > 0)
         {
             // this.SpriteRenderer.flipX = false;
-            this.transform.rotation = Quaternion.Euler(0, 0, 0);
+            gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
 
         // Vector3 movement = new Vector3(this.Speed.x * Mathf.Abs(inputX), 0, 0);
