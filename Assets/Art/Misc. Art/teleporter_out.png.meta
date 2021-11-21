@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 2508a6e8864dc42489fee64c164655cc
+guid: e86d2ffff788c6d4bb20962c3225f310
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5348674683130681243
-    second: head
+      213: 8227570061248436200
+    second: teleporter_out_0
   - first:
-      213: 5212522838049424280
-    second: body
+      213: 4602399572785036606
+    second: teleporter_out_1
   - first:
-      213: -7888160069911225253
-    second: leg_left
+      213: -8004764237647698956
+    second: teleporter_out_2
   - first:
-      213: 3886813987571322194
-    second: arm_left
-  - first:
-      213: 665108984856285378
-    second: tail
-  - first:
-      213: 8968076154447524302
-    second: leg_right
-  - first:
-      213: -4576830782777202534
-    second: arm_right
+      213: -4597051765640203645
+    second: teleporter_out_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -83,9 +74,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,9 +86,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,148 +99,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: head
+      name: teleporter_out_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 42
-        width: 22
-        height: 21
-      alignment: 9
-      pivot: {x: 0.5736479, y: 0.04135695}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 568eed4d6b0b5c5b0800000000000000
-      internalID: -5348674683130681243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: body
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 42
-        width: 11
-        height: 16
+        x: 219
+        y: 186
+        width: 255
+        height: 376
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8930c8177e9965840800000000000000
-      internalID: 5212522838049424280
+      spriteID: 8e71a5111633e2270800000000000000
+      internalID: 8227570061248436200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leg_left
+      name: teleporter_out_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 24
-        width: 7
-        height: 14
-      alignment: 9
-      pivot: {x: 0.73146474, y: 0.80218995}
+        x: 912
+        y: 186
+        width: 255
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c558da530a78290800000000000000
-      internalID: -7888160069911225253
+      spriteID: e3df242e6020fdf30800000000000000
+      internalID: 4602399572785036606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_left
+      name: teleporter_out_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 24
-        width: 9
-        height: 15
-      alignment: 9
-      pivot: {x: 0.9100643, y: 0.9380684}
+        x: 1605
+        y: 186
+        width: 255
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d453d7abcb0f530800000000000000
-      internalID: 3886813987571322194
+      spriteID: 4f32240465d59e090800000000000000
+      internalID: -8004764237647698956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tail
+      name: teleporter_out_3
       rect:
         serializedVersion: 2
-        x: 38
-        y: 9
-        width: 19
-        height: 24
-      alignment: 9
-      pivot: {x: 0.93585765, y: 0.35747766}
+        x: 2298
+        y: 186
+        width: 255
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c0974b0911fa3900800000000000000
-      internalID: 665108984856285378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: leg_right
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 6
-        width: 7
-        height: 14
-      alignment: 9
-      pivot: {x: 0.22995774, y: 0.8600562}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec1fe706fb1057c70800000000000000
-      internalID: 8968076154447524302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arm_right
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 6
-        width: 8
-        height: 13
-      alignment: 9
-      pivot: {x: 0.12869215, y: 0.91544944}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a98ed73f6a4db70c0800000000000000
-      internalID: -4576830782777202534
+      spriteID: 382feee76cdf330c0800000000000000
+      internalID: -4597051765640203645
       vertices: []
       indices: 
       edges: []
@@ -257,7 +185,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d475e224d77ee7445a28311a5ed9ff00
+    spriteID: 6369732b68572cf48bb228b01315770e
     internalID: 0
     vertices: []
     indices: 

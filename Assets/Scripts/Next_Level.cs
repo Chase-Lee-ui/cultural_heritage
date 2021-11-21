@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Next_Level : MonoBehaviour
 {
     public string NextScene;
-    public bool inside;
+    private bool inside;
 
     void Update()
     {
