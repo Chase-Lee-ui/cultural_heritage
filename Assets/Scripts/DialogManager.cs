@@ -21,6 +21,7 @@ public class DialogManager : MonoBehaviour
     public GameObject LookAtObject;
     private bool Panning;
     public SpriteRenderer TextBubble;
+    private Transform CurrentFollow;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +49,7 @@ public class DialogManager : MonoBehaviour
                 var Alpha = Mathf.Abs(this.Camera.Follow.position.x - this.CurrentPosition.position.x);
                 if((Alpha <= 0.01) && this.Panning)
                 {
-                    this.Camera.Follow = this.Player.gameObject.transform;
+                    this.Camera.Follow = this.CurrentFollow;
                     this.PlayerMovementScript.enabled = true;
                     this.PlayerMovementScript.Speed.x = 30;
                     this.gameObject.transform.parent.gameObject.SetActive(false);
@@ -107,6 +108,7 @@ public class DialogManager : MonoBehaviour
             this.TextBubble.enabled = true;
             this.EnteredScene = true;
             this.Player = collision.gameObject;
+            this.CurrentFollow = this.Camera.Follow;
             //saves monke transform
             this.CurrentPosition = collision.gameObject.transform;
             //saves monke movement
