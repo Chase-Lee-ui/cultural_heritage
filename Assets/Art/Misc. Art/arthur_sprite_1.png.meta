@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4b3a4016e7192e0439b36cadd3fec44a
+guid: 661b15f8548f53e499a8cee6554269ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7624524358356452823
-    second: Museum (right)_0
+      213: 3184740358687844103
+    second: arthur_sprite_1_0
+  - first:
+      213: -482848794820729629
+    second: arthur_sprite_1_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -34,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -102,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Museum (right)_0
+      name: arthur_sprite_1_0
       rect:
         serializedVersion: 2
-        x: 135
-        y: 139
-        width: 365
-        height: 311
+        x: 214
+        y: 1186
+        width: 688
+        height: 1084
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,8 +119,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92ab9d61e7f303690800000000000000
-      internalID: -7624524358356452823
+      spriteID: 70760759b78723c20800000000000000
+      internalID: 3184740358687844103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arthur_sprite_1_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 34
+        width: 688
+        height: 1084
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e42c7054939c49f0800000000000000
+      internalID: -482848794820729629
       vertices: []
       indices: 
       edges: []
@@ -125,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 32e92b57ff767b341a8fdcfcb9e14407
     internalID: 0
     vertices: []
     indices: 

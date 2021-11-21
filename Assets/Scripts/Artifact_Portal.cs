@@ -6,12 +6,12 @@ public class Artifact_Portal : MonoBehaviour
 {
     public int GoalValue;
     private int Counter;
-    private Next_Level_With_Up ActivateScript;
+    private TeleportToWorld ActivateScript;
     // Start is called before the first frame update
     void Start()
     {
         this.Counter = 0;
-        this.ActivateScript = this.gameObject.GetComponent<Next_Level_With_Up>();
+        this.ActivateScript = this.gameObject.GetComponent<TeleportToWorld>();
     }
 
     // Update is called once per frame

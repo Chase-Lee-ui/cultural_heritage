@@ -7,28 +7,11 @@ public class Next_Level : MonoBehaviour
 {
     public string NextScene;
     private bool inside;
-
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.W) && this.inside)
-        {
-            SceneManager.LoadScene(this.NextScene, LoadSceneMode.Single);
-        }
-    }
-    
     void OnTriggerEnter2D (Collider2D collision)
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            this.inside = true;
-        }
-    }
-
-    void OnTriggerExit2D (Collider2D collision)
-    {
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            this.inside = false;
+            SceneManager.LoadScene(this.NextScene, LoadSceneMode.Single);
         }
     }
 }
