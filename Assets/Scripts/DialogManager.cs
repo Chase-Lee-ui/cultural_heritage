@@ -27,7 +27,6 @@ public class DialogManager : MonoBehaviour
     void Start()
     {
         this.Dialog.text = string.Empty;
-        StartDialogue();
     }
 
     // Update is called once per frame
@@ -55,18 +54,18 @@ public class DialogManager : MonoBehaviour
                     this.gameObject.transform.parent.gameObject.SetActive(false);
                 }
             }
-        }
 
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            if(this.Dialog.text == this.DialogMessages[this.Index])
+            if(Input.GetKeyDown(KeyCode.Space))
             {
-                this.NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                this.Dialog.text = this.DialogMessages[this.Index];
+                if(this.Dialog.text == this.DialogMessages[this.Index])
+                {
+                    this.NextLine();
+                }
+                else
+                {
+                    StopAllCoroutines();
+                    this.Dialog.text = this.DialogMessages[this.Index];
+                }
             }
         }
     }
@@ -74,7 +73,7 @@ public class DialogManager : MonoBehaviour
     void StartDialogue()
     {
         this.Index = 0;
-        StartCoroutine(TypeLine());
+        StartCoroutine(this.TypeLine());
     }
 
     IEnumerator TypeLine()
@@ -92,7 +91,7 @@ public class DialogManager : MonoBehaviour
         {
             this.Index++;
             this.Dialog.text = string.Empty;
-            StartCoroutine(TypeLine());
+            StartCoroutine(this.TypeLine());
         }
         else
         {
@@ -119,6 +118,7 @@ public class DialogManager : MonoBehaviour
             this.LookAtObject.transform.position = collision.gameObject.transform.position;
             this.Camera.Follow = this.LookAtObject.transform;
             this.StartTime = Time.time;
+            this.StartDialogue();
         }
     }
 }

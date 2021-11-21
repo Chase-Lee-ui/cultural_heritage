@@ -11,12 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mayan_1.unity
     guid: 86880b59f2bf6ed4ba16f4200240cf1c
-    path: Assets/Scenes/Base_Scene.unity
-    guid: f424179f7958b3a47b823584d6b224ca
   - enabled: 1
     path: Assets/Scenes/Stage_Select_Test.unity
     guid: dcf8a1f306b1eb44bb0d758190c0ab25
   - enabled: 1
     path: Assets/Scenes/Base_Scene2.unity
     guid: cde8467a590648c459c9b555ed922b02
+  - enabled: 1
+    path: Assets/Scenes/Final_Scene.unity
+    guid: 7274ad4897c76ba4683dd31dbb09771a
+  - enabled: 1
+    path: Assets/Scenes/Hayn.unity
+    guid: 845ea7d6954309349b42f4a77d265c9d
   m_configObjects: {}
