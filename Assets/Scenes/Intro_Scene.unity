@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -639,7 +639,7 @@ Transform:
   m_LocalScale: {x: 187.74326, y: 100, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &170076733
 GameObject:
@@ -748,12 +748,12 @@ PrefabInstance:
     - target: {fileID: 6537677495791431775, guid: 374d7f383b4733d4a93010abff1a17a9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.9
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 6537677495791431775, guid: 374d7f383b4733d4a93010abff1a17a9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.9
+      value: 8.8
       objectReference: {fileID: 0}
     - target: {fileID: 6537677495791431775, guid: 374d7f383b4733d4a93010abff1a17a9,
         type: 3}
@@ -2180,7 +2180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.9, y: 20.3, z: -10}
+  m_LocalPosition: {x: 3.6, y: 16.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1878489438}
@@ -6121,7 +6121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407269886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.9, y: 20.3, z: -10}
+  m_LocalPosition: {x: 3.6, y: 16.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7682649}
@@ -8102,9 +8102,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4672540295832350581, guid: 4dbb70311c212c94b948efbce5425d04,
         type: 3}
+      propertyPath: DialogMessages.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350581, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
       propertyPath: Camera
       value: 
       objectReference: {fileID: 1407269888}
+    - target: {fileID: 4672540295832350581, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: DialogMessages.Array.data[0]
+      value: Ah, there you are curator, fetch me my artifacts through the portals
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350581, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: DialogMessages.Array.data[1]
+      value: These portals will send you back in time and you will retrieve a key
+        artifact from a specific culture
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350581, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: DialogMessages.Array.data[2]
+      value: The artifacts retrieved this method would have been lost to time anyway
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350581, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: DialogMessages.Array.data[3]
+      value: Now go forth
+      objectReference: {fileID: 0}
     - target: {fileID: 4672540296519355404, guid: 4dbb70311c212c94b948efbce5425d04,
         type: 3}
       propertyPath: m_Enabled
