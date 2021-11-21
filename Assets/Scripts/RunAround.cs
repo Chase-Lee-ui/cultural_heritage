@@ -5,7 +5,6 @@ using UnityEngine;
 public class RunAround : MonoBehaviour
 {
     public Vector2 XBounds;
-    public float PeriodicJumnps;
     private bool GoingRight;
     public float Speed;
     private SpriteRenderer Sprite;
@@ -32,13 +31,6 @@ public class RunAround : MonoBehaviour
                 this.Sprite.flipX = !this.Sprite.flipX;
                 this.GoingRight = !this.GoingRight;
             }
-        }
-
-        this.PeriodicJumnps -= Time.deltaTime;
-        if(this.PeriodicJumnps <= 0)
-        {
-            this.PeriodicJumnps = 5.0f;
-            this.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 100.0f * 9.8f);
         }
     }
 }
