@@ -12,7 +12,6 @@ public class Hand_Coming : MonoBehaviour
     public float Speed;
     public Pig_Button_Mash[] PigsReleased;
     private bool[] Checked = new bool[3];
-    public Vector3 OnFinished;
     private GameObject Player;
     public GameObject SetActive;
     void Update()
@@ -27,7 +26,7 @@ public class Hand_Coming : MonoBehaviour
 
             if(this.Checked[0] && this.Checked[1] && this.Checked[2])
             {
-                this.Speed = 0;
+                this.Speed = -5;
                 this.SetActive.SetActive(true);
             }
         }
