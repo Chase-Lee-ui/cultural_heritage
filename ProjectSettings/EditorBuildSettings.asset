@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Filipino_Level.unity
     guid: 076a77888d7cb324093b915513919f8b
+  - enabled: 1
+    path: Assets/Scenes/Filipino_Level2.unity
+    guid: 881b7346e64e913419583d3fa7fe136f
   m_configObjects: {}
