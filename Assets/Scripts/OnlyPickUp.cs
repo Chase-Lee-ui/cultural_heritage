@@ -5,6 +5,7 @@ using UnityEngine;
 public class OnlyPickUp : MonoBehaviour
 {
     private GameObject Player;
+    [SerializeField] private string artifactName;
     public bool Holding;
     void Update()
     {
@@ -13,6 +14,10 @@ public class OnlyPickUp : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Q))
             {
                 this.Holding = true;
+                if (artifactName != null)
+                {
+                    PlayerPrefs.SetInt(artifactName, 1);
+                }
             }
             if(this.Holding)
             {

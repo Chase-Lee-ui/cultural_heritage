@@ -17,12 +17,17 @@ public class TeleportToWorld : MonoBehaviour
     private Vector3 currentPos;
     private Vector3 toPos;
 
+    private Vector3 currentScale;
+    private Vector3 toScale;
+
     private bool inside;
     private bool isMoving;
     private float startTime;
 
     private void Start()
     {
+        toScale = new Vector3(0.3f, 0.3f, 1);
+        currentScale = playerTransform.localScale;
         toPos = transform.position;
     }
 
@@ -32,6 +37,7 @@ public class TeleportToWorld : MonoBehaviour
         {
             float fracComplete = (Time.time - startTime) / delay;
             playerTransform.position = Vector3.Slerp(currentPos, toPos, fracComplete);
+            playerTransform.localScale = Vector3.Slerp(currentScale, toScale, fracComplete);
             playerTransform.Rotate(new Vector3(0, 0, 1080 * Time.deltaTime));
         }
 
