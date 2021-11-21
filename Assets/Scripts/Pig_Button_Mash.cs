@@ -8,6 +8,7 @@ public class Pig_Button_Mash : MonoBehaviour
     private bool Inside;
     public int TotalToPress;
     public GameObject ReleasePig;
+    public GameObject SetInactive;
     public bool Finished;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Pig_Button_Mash : MonoBehaviour
             this.ButtonMash += 1;
             if(this.ButtonMash >= this.TotalToPress)
             {
+                this.SetInactive.SetActive(false);
                 this.ReleasePig.SetActive(true);
                 this.Finished = true;
             }

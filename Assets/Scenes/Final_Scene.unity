@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 1124060280}
   - component: {fileID: 1124060279}
   m_Layer: 0
-  m_Name: Grass Block_0
+  m_Name: Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
