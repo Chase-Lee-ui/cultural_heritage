@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 6537677495791431773}
   - component: {fileID: 6537677495791431772}
   - component: {fileID: 6537677495791431763}
+  - component: {fileID: 2058870581189931412}
   m_Layer: 9
   m_Name: monke
   m_TagString: Player
@@ -488,6 +489,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &2058870581189931412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6537677495791431762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803ed58d6c8dfb74c81d970f28e4f05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cmCamera: {fileID: 0}
 --- !u!1 &6537677495884600778
 GameObject:
   m_ObjectHideFlags: 0
