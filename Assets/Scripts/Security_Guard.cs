@@ -13,17 +13,19 @@ public class Security_Guard : MonoBehaviour
     {
         if(this.GoingRight)
         {
-            this.transform.Translate(Vector2.right * this.Speed * Time.deltaTime);
+            this.transform.Translate(Vector2.right * this.Speed * Time.deltaTime, Space.World);
             if(this.gameObject.transform.position.x >= this.XBounds.y)
             {
+                this.transform.rotation = Quaternion.Euler(0, 0, 0);
                 this.GoingRight = !this.GoingRight;
             }
         }
         else
         {
-            this.transform.Translate(Vector2.left * this.Speed * Time.deltaTime);
+            this.transform.Translate(Vector2.left * this.Speed * Time.deltaTime, Space.World);
             if(this.gameObject.transform.position.x <= this.XBounds.x)
             {
+                this.transform.rotation = Quaternion.Euler(0, 180, 0);
                 this.GoingRight = !this.GoingRight;
             }
         }

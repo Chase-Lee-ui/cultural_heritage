@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Carry_Artifact : MonoBehaviour
 {
+    public int ObjectValue;
     private GameObject Player;
     private bool Holding;
     // Start is called before the first frame update
@@ -26,8 +27,11 @@ public class Carry_Artifact : MonoBehaviour
                     this.Player = null;
                 }
                 this.Holding = !this.Holding;
-                this.Player.gameObject.transform.root.GetComponent<Player_Movement>().Speed.x -= 10;
-                this.Player.gameObject.transform.root.GetComponent<Player_Movement>().JumpHeight -= 70;
+                if(this.Player)
+                {
+                    this.Player.gameObject.transform.root.GetComponent<Player_Movement>().Speed.x -= 10;
+                    this.Player.gameObject.transform.root.GetComponent<Player_Movement>().JumpHeight -= 70;
+                }
             }
             if(this.Holding)
             {
@@ -43,6 +47,7 @@ public class Carry_Artifact : MonoBehaviour
     {
         if(collision.tag == "Hand")
         {
+            this.gameObject.tag = "Player";
             this.Player = collision.gameObject;
         }
     }
@@ -51,6 +56,7 @@ public class Carry_Artifact : MonoBehaviour
     {
         if(collision.tag == "Hand")
         {
+            this.gameObject.tag = "Puzzle Piece";
             this.Player = null;
         }
     }
