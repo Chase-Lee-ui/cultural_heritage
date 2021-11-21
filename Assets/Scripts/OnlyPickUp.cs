@@ -1,25 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class OnlyPickUp : MonoBehaviour
 {
     private GameObject Player;
     [SerializeField] private string artifactName;
-    public UnityEvent onPickup;
     public bool Holding;
     void Update()
     {
         if(this.Player)
         {
-            if(Input.GetKeyDown(KeyCode.Q) && !Holding)
+            if(Input.GetKeyDown(KeyCode.Q))
             {
                 this.Holding = true;
                 if (artifactName != null)
                 {
                     PlayerPrefs.SetInt(artifactName, 1);
-                    onPickup.Invoke();
                 }
             }
             if(this.Holding)

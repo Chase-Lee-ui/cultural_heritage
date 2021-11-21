@@ -9,39 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Mayan_2.unity
     guid: 13438a39aa186124ab1d9b6432a02e48
   - enabled: 1
+    path: Assets/Scenes/Mayan_1.unity
+    guid: 86880b59f2bf6ed4ba16f4200240cf1c
+  - enabled: 1
     path: Assets/Scenes/Stage_Select_Test.unity
     guid: dcf8a1f306b1eb44bb0d758190c0ab25
   - enabled: 1
-    path: Assets/Scenes/Final Scenes/Final_Scene.unity
+    path: Assets/Scenes/Base_Scene2.unity
+    guid: cde8467a590648c459c9b555ed922b02
+  - enabled: 1
+    path: Assets/Scenes/Final_Scene.unity
     guid: 7274ad4897c76ba4683dd31dbb09771a
   - enabled: 1
-    path: Assets/Scenes/Hawaiian Culture/Hayn.unity
+    path: Assets/Scenes/Hayn.unity
     guid: 845ea7d6954309349b42f4a77d265c9d
-  - enabled: 1
-    path: Assets/Scenes/Filipino Culture/Filipino_End.unity
-    guid: c47968e67c9f81f4a8e2fe8f39bf056a
-  - enabled: 1
-    path: Assets/Scenes/Filipino Culture/Filipino_Level.unity
-    guid: 076a77888d7cb324093b915513919f8b
-  - enabled: 1
-    path: Assets/Scenes/Filipino Culture/Filipino_Level2.unity
-    guid: 881b7346e64e913419583d3fa7fe136f
-  - enabled: 1
-    path: Assets/Scenes/Final Scenes/Final_Scene_2.unity
-    guid: f858f3966ceb4e74191be2918a6ec787
-  - enabled: 1
-    path: Assets/Scenes/Intro_Scene.unity
-    guid: bbe2ebd311a525b4c9392f779459426a
-  - enabled: 1
-    path: Assets/Scenes/Title Scenes/Credits.unity
-    guid: d3aebd0f54c2ba443bf7cca34b800ea0
-  - enabled: 1
-    path: Assets/Scenes/Title Scenes/Controls.unity
-    guid: d05762214b2ef564ba856ff004e26673
-  - enabled: 1
-    path: Assets/Scenes/Title Scenes/Title.unity
-    guid: da63ba0cd21cd8d4f85c807848289dee
-  - enabled: 1
-    path: Assets/Scenes/Final Scenes/Final_Scene_3.unity
-    guid: ff64017675ca00f4292f12204f30f5e7
   m_configObjects: {}
