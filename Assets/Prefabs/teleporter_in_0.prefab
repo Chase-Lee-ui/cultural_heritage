@@ -133,7 +133,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a72660c90a57684dba9c8d2cec7ffee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toTeleportSceneName: 
+  NextScene: Mayan_2
+  delay: 1
+  anim: {fileID: 0}
+  playerMovement: {fileID: 0}
+  PlayerRB: {fileID: 0}
+  playerTransform: {fileID: 0}
+  animController: {fileID: 0}
+  camControl: {fileID: 0}
 --- !u!1 &7644275990022480497
 GameObject:
   m_ObjectHideFlags: 0

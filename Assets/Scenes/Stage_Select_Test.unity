@@ -839,6 +839,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: monke
       objectReference: {fileID: 0}
+    - target: {fileID: 6537677495791431763, guid: 374d7f383b4733d4a93010abff1a17a9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6537677495791431772, guid: 374d7f383b4733d4a93010abff1a17a9,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 2146813022}
+    - target: {fileID: 6537677495791431772, guid: 374d7f383b4733d4a93010abff1a17a9,
+        type: 3}
+      propertyPath: OnGround
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6537677495791431772, guid: 374d7f383b4733d4a93010abff1a17a9,
+        type: 3}
+      propertyPath: PlayerRB
+      value: 
+      objectReference: {fileID: 2146813019}
+    - target: {fileID: 6537677495791431774, guid: 374d7f383b4733d4a93010abff1a17a9,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6537677495791431774, guid: 374d7f383b4733d4a93010abff1a17a9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6537677495791431775, guid: 374d7f383b4733d4a93010abff1a17a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1533,16 +1563,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4694535963101049359, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
-      propertyPath: NextScene
-      value: Mayan_2
-      objectReference: {fileID: 0}
-    - target: {fileID: -4694535963101049359, guid: 3c2cb151d7a53e343a98de191bf6a050,
-        type: 3}
-      propertyPath: delay
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4694535963101049359, guid: 3c2cb151d7a53e343a98de191bf6a050,
-        type: 3}
       propertyPath: anim
       value: 
       objectReference: {fileID: 2146813022}
@@ -1553,6 +1573,11 @@ PrefabInstance:
       objectReference: {fileID: 2146813020}
     - target: {fileID: -4694535963101049359, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
+      propertyPath: PlayerRB
+      value: 
+      objectReference: {fileID: 2146813019}
+    - target: {fileID: -4694535963101049359, guid: 3c2cb151d7a53e343a98de191bf6a050,
+        type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 2146813018}
@@ -1561,6 +1586,11 @@ PrefabInstance:
       propertyPath: animController
       value: 
       objectReference: {fileID: 922569831}
+    - target: {fileID: -4694535963101049359, guid: 3c2cb151d7a53e343a98de191bf6a050,
+        type: 3}
+      propertyPath: camControl
+      value: 
+      objectReference: {fileID: 2146813024}
     - target: {fileID: 3534590706394552393, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
       propertyPath: m_Mesh
@@ -1568,8 +1598,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4898927180401524086, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
+      propertyPath: m_text
+      value: 'Mayan
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4898927180401524086, guid: 3c2cb151d7a53e343a98de191bf6a050,
+        type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4898927180401524086, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
@@ -1579,17 +1616,7 @@ PrefabInstance:
     - target: {fileID: 4898927180401524086, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4898927180401524086, guid: 3c2cb151d7a53e343a98de191bf6a050,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4898927180401524086, guid: 3c2cb151d7a53e343a98de191bf6a050,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6299661127932706197, guid: 3c2cb151d7a53e343a98de191bf6a050,
         type: 3}
@@ -2018,6 +2045,12 @@ GameObject:
 --- !u!4 &2146813018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6537677495791431775, guid: 374d7f383b4733d4a93010abff1a17a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 814929717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &2146813019 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6537677495791431763, guid: 374d7f383b4733d4a93010abff1a17a9,
     type: 3}
   m_PrefabInstance: {fileID: 814929717}
   m_PrefabAsset: {fileID: 0}

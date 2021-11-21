@@ -9,11 +9,14 @@ public class TeleportToWorld : MonoBehaviour
     [SerializeField] private float delay;
     [SerializeField] private Animator anim;
     [SerializeField] private Player_Movement playerMovement;
+    [SerializeField] private Rigidbody2D PlayerRB;
     [SerializeField] private Transform playerTransform;
     [SerializeField] private AnimationController animController;
+    [SerializeField] private CameraControl camControl;
 
     private Vector3 currentPos;
     private Vector3 toPos;
+
     private bool inside;
     private bool isMoving;
     private float startTime;
@@ -29,6 +32,7 @@ public class TeleportToWorld : MonoBehaviour
         {
             float fracComplete = (Time.time - startTime) / delay;
             playerTransform.position = Vector3.Slerp(currentPos, toPos, fracComplete);
+            playerTransform.Rotate(new Vector3(0, 0, 1080 * Time.deltaTime));
         }
 
         if (Input.GetKeyDown(KeyCode.W) && this.inside)
@@ -39,6 +43,7 @@ public class TeleportToWorld : MonoBehaviour
 
     IEnumerator TeleportPlayer(float delay)
     {
+        camControl.DisableCamera();
         animController.FadeOut();
         isMoving = true;
         startTime = Time.time;
