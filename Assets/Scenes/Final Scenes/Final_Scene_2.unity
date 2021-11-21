@@ -12001,7 +12001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collect all of the artifacts to use the portal
+  m_text: Drop the artifacts into portal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12070,10 +12070,10 @@ MonoBehaviour:
   m_margin: {x: -15.288614, y: 0, z: -31.63567, w: 0}
   m_textInfo:
     textComponent: {fileID: 1982332828}
-    characterCount: 46
+    characterCount: 30
     spriteCount: 0
-    spaceCount: 8
-    wordCount: 9
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -12573,7 +12573,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093059870}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a72660c90a57684dba9c8d2cec7ffee, type: 3}
   m_Name: 

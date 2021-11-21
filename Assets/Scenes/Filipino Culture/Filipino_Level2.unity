@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 4964439}
   m_Layer: 0
   m_Name: WoodFloor (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 27563201}
   m_Layer: 0
   m_Name: WoodFloor (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 41635283}
   m_Layer: 0
   m_Name: WoodFloor (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 56519058}
   m_Layer: 0
   m_Name: WoodFloor (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1293,7 +1293,7 @@ GameObject:
   - component: {fileID: 135394777}
   m_Layer: 0
   m_Name: WoodFloor (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1512,6 +1512,11 @@ PrefabInstance:
       propertyPath: DialogMessages.Array.data[15]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4672540295832350583, guid: 4dbb70311c212c94b948efbce5425d04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.23
+      objectReference: {fileID: 0}
     - target: {fileID: 4672540296519355404, guid: 4dbb70311c212c94b948efbce5425d04,
         type: 3}
       propertyPath: m_Enabled
@@ -1627,7 +1632,7 @@ GameObject:
   - component: {fileID: 143105520}
   m_Layer: 0
   m_Name: WoodFloor (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1735,7 +1740,7 @@ GameObject:
   - component: {fileID: 160449732}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1981,7 +1986,7 @@ GameObject:
   - component: {fileID: 170705071}
   m_Layer: 0
   m_Name: WoodFloor (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2351,7 +2356,7 @@ GameObject:
   - component: {fileID: 190328153}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2741,7 +2746,7 @@ GameObject:
   - component: {fileID: 244163975}
   m_Layer: 0
   m_Name: WoodFloor (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3101,7 +3106,7 @@ GameObject:
   - component: {fileID: 290878304}
   m_Layer: 0
   m_Name: WoodFloor (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3209,7 +3214,7 @@ GameObject:
   - component: {fileID: 292119590}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3549,7 +3554,7 @@ GameObject:
   - component: {fileID: 329806247}
   m_Layer: 0
   m_Name: WoodFloor (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3657,7 +3662,7 @@ GameObject:
   - component: {fileID: 359875906}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3765,7 +3770,7 @@ GameObject:
   - component: {fileID: 361754095}
   m_Layer: 0
   m_Name: WoodFloor (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4149,7 +4154,7 @@ GameObject:
   - component: {fileID: 395194468}
   m_Layer: 0
   m_Name: WoodFloor (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4381,7 +4386,7 @@ GameObject:
   - component: {fileID: 448848856}
   m_Layer: 0
   m_Name: WoodFloor (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6258,7 +6263,7 @@ GameObject:
   - component: {fileID: 829134589}
   m_Layer: 0
   m_Name: WoodFloor (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6366,7 +6371,7 @@ GameObject:
   - component: {fileID: 842791824}
   m_Layer: 0
   m_Name: WoodFloor (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6474,7 +6479,7 @@ GameObject:
   - component: {fileID: 859976655}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6720,7 +6725,7 @@ GameObject:
   - component: {fileID: 877470336}
   m_Layer: 0
   m_Name: WoodFloor (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6909,7 +6914,7 @@ GameObject:
   - component: {fileID: 922302234}
   m_Layer: 0
   m_Name: WoodFloor (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7338,7 +7343,7 @@ GameObject:
   - component: {fileID: 977626476}
   m_Layer: 0
   m_Name: WoodFloor (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7446,7 +7451,7 @@ GameObject:
   - component: {fileID: 1025597046}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8326,7 +8331,7 @@ GameObject:
   - component: {fileID: 1078717471}
   m_Layer: 0
   m_Name: WoodFloor (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8584,7 +8589,7 @@ GameObject:
   - component: {fileID: 1133313284}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8692,7 +8697,7 @@ GameObject:
   - component: {fileID: 1162055400}
   m_Layer: 0
   m_Name: WoodFloor (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9046,7 +9051,7 @@ GameObject:
   - component: {fileID: 1206677976}
   m_Layer: 0
   m_Name: WoodFloor (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9381,7 +9386,7 @@ GameObject:
   - component: {fileID: 1325146313}
   m_Layer: 0
   m_Name: WoodFloor (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10398,7 +10403,7 @@ GameObject:
   - component: {fileID: 1447090628}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10725,7 +10730,7 @@ GameObject:
   - component: {fileID: 1521643638}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11429,52 +11434,64 @@ PrefabInstance:
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210903110377956668, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_text
+      value: 'Artifact:
+
+        Anting Anting'
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9102613498808407614, guid: 249baab9b9accc541aec70d92e737c3b,
+        type: 3}
+      propertyPath: m_text
+      value: 'Location: Philippines'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 249baab9b9accc541aec70d92e737c3b, type: 3}
@@ -11615,7 +11632,7 @@ GameObject:
   - component: {fileID: 1645916214}
   m_Layer: 0
   m_Name: WoodFloor (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12820,7 +12837,7 @@ GameObject:
   - component: {fileID: 1897838262}
   m_Layer: 0
   m_Name: WoodFloor (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13045,7 +13062,7 @@ GameObject:
   - component: {fileID: 1915925068}
   m_Layer: 0
   m_Name: WoodFloor (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13401,7 +13418,7 @@ GameObject:
   - component: {fileID: 1996130991}
   m_Layer: 0
   m_Name: WoodFloor (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13633,7 +13650,7 @@ GameObject:
   - component: {fileID: 2054946146}
   m_Layer: 0
   m_Name: WoodFloor (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13741,7 +13758,7 @@ GameObject:
   - component: {fileID: 2057429010}
   m_Layer: 0
   m_Name: WoodFloor (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13849,7 +13866,7 @@ GameObject:
   - component: {fileID: 2061577820}
   m_Layer: 0
   m_Name: WoodFloor (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14159,7 +14176,7 @@ GameObject:
   - component: {fileID: 2121531695}
   m_Layer: 0
   m_Name: WoodFloor (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14405,7 +14422,7 @@ GameObject:
   - component: {fileID: 2135424315}
   m_Layer: 0
   m_Name: WoodFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
